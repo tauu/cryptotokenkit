@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		498EBD352742C35E00C3E265 /* SecureEnclaveTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498EBD342742C35E00C3E265 /* SecureEnclaveTestApp.swift */; };
+		498EBD372742C35E00C3E265 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498EBD362742C35E00C3E265 /* ContentView.swift */; };
+		498EBD392742C36000C3E265 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 498EBD382742C36000C3E265 /* Assets.xcassets */; };
+		498EBD3C2742C36000C3E265 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 498EBD3B2742C36000C3E265 /* Preview Assets.xcassets */; };
+		498EBD472742C36000C3E265 /* SecureEnclaveTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498EBD462742C36000C3E265 /* SecureEnclaveTestTests.swift */; };
+		498EBD512742C36000C3E265 /* SecureEnclaveTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498EBD502742C36000C3E265 /* SecureEnclaveTestUITests.swift */; };
+		498EBD532742C36000C3E265 /* SecureEnclaveTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498EBD522742C36000C3E265 /* SecureEnclaveTestUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		498EBD432742C36000C3E265 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 498EBD292742C35E00C3E265 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 498EBD302742C35E00C3E265;
+			remoteInfo = SecureEnclaveTest;
+		};
+		498EBD4D2742C36000C3E265 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 498EBD292742C35E00C3E265 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 498EBD302742C35E00C3E265;
+			remoteInfo = SecureEnclaveTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		498EBD312742C35E00C3E265 /* SecureEnclaveTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecureEnclaveTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		498EBD342742C35E00C3E265 /* SecureEnclaveTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureEnclaveTestApp.swift; sourceTree = "<group>"; };
+		498EBD362742C35E00C3E265 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		498EBD382742C36000C3E265 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		498EBD3B2742C36000C3E265 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		498EBD3D2742C36000C3E265 /* SecureEnclaveTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SecureEnclaveTest.entitlements; sourceTree = "<group>"; };
+		498EBD422742C36000C3E265 /* SecureEnclaveTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SecureEnclaveTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		498EBD462742C36000C3E265 /* SecureEnclaveTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureEnclaveTestTests.swift; sourceTree = "<group>"; };
+		498EBD4C2742C36000C3E265 /* SecureEnclaveTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SecureEnclaveTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		498EBD502742C36000C3E265 /* SecureEnclaveTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureEnclaveTestUITests.swift; sourceTree = "<group>"; };
+		498EBD522742C36000C3E265 /* SecureEnclaveTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureEnclaveTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		498EBD2E2742C35E00C3E265 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		498EBD3F2742C36000C3E265 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		498EBD492742C36000C3E265 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		498EBD282742C35E00C3E265 = {
+			isa = PBXGroup;
+			children = (
+				498EBD332742C35E00C3E265 /* SecureEnclaveTest */,
+				498EBD452742C36000C3E265 /* SecureEnclaveTestTests */,
+				498EBD4F2742C36000C3E265 /* SecureEnclaveTestUITests */,
+				498EBD322742C35E00C3E265 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		498EBD322742C35E00C3E265 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				498EBD312742C35E00C3E265 /* SecureEnclaveTest.app */,
+				498EBD422742C36000C3E265 /* SecureEnclaveTestTests.xctest */,
+				498EBD4C2742C36000C3E265 /* SecureEnclaveTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		498EBD332742C35E00C3E265 /* SecureEnclaveTest */ = {
+			isa = PBXGroup;
+			children = (
+				498EBD342742C35E00C3E265 /* SecureEnclaveTestApp.swift */,
+				498EBD362742C35E00C3E265 /* ContentView.swift */,
+				498EBD382742C36000C3E265 /* Assets.xcassets */,
+				498EBD3D2742C36000C3E265 /* SecureEnclaveTest.entitlements */,
+				498EBD3A2742C36000C3E265 /* Preview Content */,
+			);
+			path = SecureEnclaveTest;
+			sourceTree = "<group>";
+		};
+		498EBD3A2742C36000C3E265 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				498EBD3B2742C36000C3E265 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		498EBD452742C36000C3E265 /* SecureEnclaveTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				498EBD462742C36000C3E265 /* SecureEnclaveTestTests.swift */,
+			);
+			path = SecureEnclaveTestTests;
+			sourceTree = "<group>";
+		};
+		498EBD4F2742C36000C3E265 /* SecureEnclaveTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				498EBD502742C36000C3E265 /* SecureEnclaveTestUITests.swift */,
+				498EBD522742C36000C3E265 /* SecureEnclaveTestUITestsLaunchTests.swift */,
+			);
+			path = SecureEnclaveTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		498EBD302742C35E00C3E265 /* SecureEnclaveTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 498EBD562742C36000C3E265 /* Build configuration list for PBXNativeTarget "SecureEnclaveTest" */;
+			buildPhases = (
+				498EBD2D2742C35E00C3E265 /* Sources */,
+				498EBD2E2742C35E00C3E265 /* Frameworks */,
+				498EBD2F2742C35E00C3E265 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SecureEnclaveTest;
+			productName = SecureEnclaveTest;
+			productReference = 498EBD312742C35E00C3E265 /* SecureEnclaveTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		498EBD412742C36000C3E265 /* SecureEnclaveTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 498EBD592742C36000C3E265 /* Build configuration list for PBXNativeTarget "SecureEnclaveTestTests" */;
+			buildPhases = (
+				498EBD3E2742C36000C3E265 /* Sources */,
+				498EBD3F2742C36000C3E265 /* Frameworks */,
+				498EBD402742C36000C3E265 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				498EBD442742C36000C3E265 /* PBXTargetDependency */,
+			);
+			name = SecureEnclaveTestTests;
+			productName = SecureEnclaveTestTests;
+			productReference = 498EBD422742C36000C3E265 /* SecureEnclaveTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		498EBD4B2742C36000C3E265 /* SecureEnclaveTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 498EBD5C2742C36000C3E265 /* Build configuration list for PBXNativeTarget "SecureEnclaveTestUITests" */;
+			buildPhases = (
+				498EBD482742C36000C3E265 /* Sources */,
+				498EBD492742C36000C3E265 /* Frameworks */,
+				498EBD4A2742C36000C3E265 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				498EBD4E2742C36000C3E265 /* PBXTargetDependency */,
+			);
+			name = SecureEnclaveTestUITests;
+			productName = SecureEnclaveTestUITests;
+			productReference = 498EBD4C2742C36000C3E265 /* SecureEnclaveTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		498EBD292742C35E00C3E265 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					498EBD302742C35E00C3E265 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					498EBD412742C36000C3E265 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 498EBD302742C35E00C3E265;
+					};
+					498EBD4B2742C36000C3E265 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 498EBD302742C35E00C3E265;
+					};
+				};
+			};
+			buildConfigurationList = 498EBD2C2742C35E00C3E265 /* Build configuration list for PBXProject "SecureEnclaveTest" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 498EBD282742C35E00C3E265;
+			productRefGroup = 498EBD322742C35E00C3E265 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				498EBD302742C35E00C3E265 /* SecureEnclaveTest */,
+				498EBD412742C36000C3E265 /* SecureEnclaveTestTests */,
+				498EBD4B2742C36000C3E265 /* SecureEnclaveTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		498EBD2F2742C35E00C3E265 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				498EBD3C2742C36000C3E265 /* Preview Assets.xcassets in Resources */,
+				498EBD392742C36000C3E265 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		498EBD402742C36000C3E265 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		498EBD4A2742C36000C3E265 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		498EBD2D2742C35E00C3E265 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				498EBD372742C35E00C3E265 /* ContentView.swift in Sources */,
+				498EBD352742C35E00C3E265 /* SecureEnclaveTestApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		498EBD3E2742C36000C3E265 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				498EBD472742C36000C3E265 /* SecureEnclaveTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		498EBD482742C36000C3E265 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				498EBD532742C36000C3E265 /* SecureEnclaveTestUITestsLaunchTests.swift in Sources */,
+				498EBD512742C36000C3E265 /* SecureEnclaveTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		498EBD442742C36000C3E265 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 498EBD302742C35E00C3E265 /* SecureEnclaveTest */;
+			targetProxy = 498EBD432742C36000C3E265 /* PBXContainerItemProxy */;
+		};
+		498EBD4E2742C36000C3E265 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 498EBD302742C35E00C3E265 /* SecureEnclaveTest */;
+			targetProxy = 498EBD4D2742C36000C3E265 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		498EBD542742C36000C3E265 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		498EBD552742C36000C3E265 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		498EBD572742C36000C3E265 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SecureEnclaveTest/SecureEnclaveTest.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SecureEnclaveTest/Preview Content\"";
+				DEVELOPMENT_TEAM = KD5RL37A2M;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.netq.SecureEnclaveTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		498EBD582742C36000C3E265 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SecureEnclaveTest/SecureEnclaveTest.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SecureEnclaveTest/Preview Content\"";
+				DEVELOPMENT_TEAM = KD5RL37A2M;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.netq.SecureEnclaveTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		498EBD5A2742C36000C3E265 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KD5RL37A2M;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.netq.SecureEnclaveTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SecureEnclaveTest.app/Contents/MacOS/SecureEnclaveTest";
+			};
+			name = Debug;
+		};
+		498EBD5B2742C36000C3E265 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KD5RL37A2M;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.netq.SecureEnclaveTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SecureEnclaveTest.app/Contents/MacOS/SecureEnclaveTest";
+			};
+			name = Release;
+		};
+		498EBD5D2742C36000C3E265 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KD5RL37A2M;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.netq.SecureEnclaveTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = SecureEnclaveTest;
+			};
+			name = Debug;
+		};
+		498EBD5E2742C36000C3E265 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KD5RL37A2M;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.netq.SecureEnclaveTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = SecureEnclaveTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		498EBD2C2742C35E00C3E265 /* Build configuration list for PBXProject "SecureEnclaveTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				498EBD542742C36000C3E265 /* Debug */,
+				498EBD552742C36000C3E265 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		498EBD562742C36000C3E265 /* Build configuration list for PBXNativeTarget "SecureEnclaveTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				498EBD572742C36000C3E265 /* Debug */,
+				498EBD582742C36000C3E265 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		498EBD592742C36000C3E265 /* Build configuration list for PBXNativeTarget "SecureEnclaveTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				498EBD5A2742C36000C3E265 /* Debug */,
+				498EBD5B2742C36000C3E265 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		498EBD5C2742C36000C3E265 /* Build configuration list for PBXNativeTarget "SecureEnclaveTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				498EBD5D2742C36000C3E265 /* Debug */,
+				498EBD5E2742C36000C3E265 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 498EBD292742C35E00C3E265 /* Project object */;
+}
